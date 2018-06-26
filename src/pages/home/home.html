@@ -1,14 +1,36 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Court Counter
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
-</ion-content>
+
+ <div class="fres" id = "left">
+    <h1>Team A </h1>
+    <h1>{{scoreA}}</h1>
+    <button ion-button block (click)= "Click(3)">+3 POINTS</button><br>
+    <button ion-button block (click)= "Click(2)">+2 POINTS</button><br>
+    <button ion-button block (click)= "Click(1)">FREE THROW</button>
+
+  </div>
+
+  
+  <div class="vut">
+    <h1>Team B </h1>
+    <h1>{{scoreB}}</h1>     
+    <button ion-button block (click)= "ClickB(3)">+3 POINTS</button><br>
+    <button ion-button block (click)= "ClickB(2)">+2 POINTS</button><br>
+    <button ion-button block (click)= "ClickB(1)">FREE THROW</button>
+  </div>
+
+  <div class="lun">
+  <button ion-button block (click)= "OnClick()">RESET</button>
+  </div>
+
+  </ion-content>
+
+
+

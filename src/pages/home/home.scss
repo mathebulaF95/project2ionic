@@ -1,3 +1,33 @@
 page-home {
 
+    #left{
+        border-right: 2px solid black;
+    }
+    .vut, .fres{
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 0% 5%;
+
+        button{
+            background-color: orange;
+        }
+        
+    }
 }
+
+ion-title{
+    background-color: orange;
+}
+
+.lun{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50);
+    
+    button{
+        background-color: orange;
+    }
+}
+
